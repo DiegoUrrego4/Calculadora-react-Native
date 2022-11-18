@@ -1,6 +1,7 @@
 # React Native Calculator
 
-In this application you will find a fully functional calculator with the operations of addition, subtraction, multiplication and division. This project was built using React Native and looks like this: 
+In this application you will find a fully functional calculator with the operations of addition, subtraction, multiplication and division. This project was built using React Native and looks like this:
+
 <br />
 <img src='./assets/Screenshot_1.png' alt='calculatorImage' />
 
