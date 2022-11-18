@@ -10,14 +10,14 @@ export const styles = StyleSheet.create({
     paddingHorizontal: 20,
     justifyContent: 'flex-end',
   },
-  result: {
-    color: 'white',
-    fontSize: 60,
+  operations: {
+    color: '#9F9F9F',
+    fontSize: 30,
     textAlign: 'right',
   },
-  resultView: {
-    color: 'rgba(255,255,255,0.5)',
-    fontSize: 30,
+  result: {
+    color: '#349838',
+    fontSize: 60,
     textAlign: 'right',
   },
   row: {
@@ -29,7 +29,7 @@ export const styles = StyleSheet.create({
   button: {
     height: 80,
     width: 80,
-    borderRadius: 100,
+    borderRadius: 30,
     backgroundColor: '#2D2D2D',
     justifyContent: 'center',
     marginHorizontal: 10,

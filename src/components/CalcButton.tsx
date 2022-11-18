@@ -6,15 +6,17 @@ interface Props {
   buttonText: string;
   color?: string;
   longButton?: boolean;
+  action: (textNumber: string) => void;
 }
 
 export const CalcButton = ({
   buttonText,
   color = '#2D2D2D',
   longButton = false,
+  action,
 }: Props) => {
   return (
-    <TouchableOpacity>
+    <TouchableOpacity onPress={() => action(buttonText)}>
       <View
         // eslint-disable-next-line react-native/no-inline-styles
         style={{
